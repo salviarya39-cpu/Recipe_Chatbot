@@ -1,32 +1,15 @@
-<<<<<<< HEAD
-# Recipe Chatbot
+# Recipe Chatbot 🍲
 
-A Python chatbot built using LangChain and Google's Gemini API.
+An AI-powered recipe recommendation chatbot built using Gemini API and Streamlit.
 
 ## Features
+- Recipe recommendations
+- Cooking time
+- Difficulty level
+- Nutrition information
+- Chat history
 
-* Recipe recommendations
-* Gemini API integration
-* Interactive command-line interface
+## Run Locally
 
-## Installation
-
-```bash
 pip install -r requirements.txt
-```
-
-Create a `.env` file:
-
-```env
-GOOGLE_API_KEY=your_api_key
-```
-
-Run:
-
-```bash
-python chatbot.py
-```
-=======
-# Recipe_Chatbot
-This is the recipe chatbot
->>>>>>> 2218bb71e51fe0b89b833b1ba2b430ce788c8ac3
+streamlit run chatbot.py
